@@ -1,15 +1,36 @@
 alert("bem vindo ao jogo");
 
-    let númeroSecreto=22;
-    let númeroDigitado=parseInt(prompt("digite um número de 1 a 50"));
+let numeroSecreto = Math.floor(Math.random() * 5 + 1);
+let tentativas = 5;
 
-if (númeroDigitado==númeroSecreto){
-    alert("voce acertou")
-}
+while (tentativas > 0) {
+    let numeroDigitado = parseInt(prompt("digite um numero de 1 a 5"));
 
-else if(númeroDigitado>númeroSecreto){
-    alert("voce digitou um número maior")
+    if (numeroDigitado == numeroSecreto) {
+        alert(`voce acertou o numero ${numeroSecreto}`);
+        break;
+    }
+    else if (numeroDigitado > numeroSecreto) {
+        alert(`voce digitou ${numeroDigitado} que é um número maior`);
+    }
+    else {
+        alert(`voce digitou ${numeroDigitado} um numero menor`);
+    }
+    tentativas = tentativas - 1;
+
+
+    if (tentativas == 0) {
+        alert(`suas tentativas acabaram`)
+    }
+    else if (tentativas >= 2) {
+        alert(`voce ainda tem ${tentativas} tentativas`);
+    }
+    else {
+        alert(`voce tem ${tentativas} tentativa`)
+    }
 }
-else{
-    alert("voce digitou um número menor")
+let palavraTentativa
+if (tentativas > 0) {
+    tentativas = 4 - tentativas;
+    alert(`voce conseguiu em ${tentativas} tentativas`);
 }
