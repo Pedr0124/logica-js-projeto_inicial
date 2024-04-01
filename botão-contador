@@ -1,0 +1,11 @@
+
+let contador
+
+function clicou(){
+    contador ++;
+    alert(`voce clicou ${contador} vezes`)
+}
+
+function zerarContador(){
+    contador=0
+}

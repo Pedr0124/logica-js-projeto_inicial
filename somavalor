@@ -1,0 +1,7 @@
+
+let primeiroValor = parsefloat(prompt("Digite o primeiro valor"));
+let segundoValor = parsefloat(prompt("Digite o segundo valor"));
+
+let soma = primeiroValor + segundoValor;
+
+alert(`soma dos valores: ${soma}`)
