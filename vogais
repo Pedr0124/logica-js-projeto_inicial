@@ -1,0 +1,14 @@
+function vogais(a,e,i,o,u){
+    let vogais  
+    alert(``);
+}
+let primeiraLetra = parseInt(prompt(`Digite o primeiro número`));
+let segundaLetra = parseInt(prompt(`Digite o segundo número`));
+let 
+
+|||||||\\  |||||||  ||||||\\   ||||||\\     //||||\\
+||     ||  ||       ||     \\  ||     ||   //      \\
+|||||||//  ||||||   ||     ||  ||||||//   //        \\
+||         ||       ||     ||  || \\      ||        ||
+||         ||       ||     //  ||  \\     \\        //
+||         |||||||  ||||||//   ||   \\     \\|||||//
