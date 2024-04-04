@@ -1,37 +1,8 @@
-
-function clicou(){
-    alert(`inicie o jogo`)
-
-
-let numerodeposiçoesaleatórias = parseInt(prompt(`quantos numeros voce quer aleatorizar`))
-
-function numeroAleatório(){
-    return Math.floor(Math.random()*5+1)
-}
-
-let numeroSecreto=numeroAleatório(numerodeposiçoesaleatórias)
-
-for (let tentativas=0; tentativas<3; tentativas ++){
-    let numeroDigitado  = parseInt(prompt(`digite um número de 1 a ${numerodeposiçoesaleatórias}`));
-    
-    if(numeroDigitado==numeroSecreto){
-        alert(`voce digitou ${numeroDigitado} que é o numero secreto`);
-       break
-    }
-    else if(numeroDigitado>numeroSecreto){
-        alert(`voce digitou ${numeroDigitado} que é um numero maior`);
-    }
-    else{
-        alert(`voce digitou ${numeroDigitado} que é um numero menor`);
-    }
-    if(tentativas ==3){
-        alert("suas tentativas acabaram")
-    }
-    else if(tentativas<2){
-        alert(`voce ainda tem ${2-tentativas} tentativas`)
-    }
-    else{
-        alert(`voce ainda tem ${2-tentativas} tentativas `)
-    }
-}
+let listaNumerosDigitados = [1,2,3,4];
+let media
+ 
+for () {
+    let numeroDigitado = parseInt(prompt(`digite um numero`));
+    listaNumerosDigitados.push(numeroDigitado);
+    alert(listaNumerosDigitados[i]);
 }
