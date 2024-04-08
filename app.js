@@ -1,15 +1,18 @@
-let listaNumerosDigitados = [];
-let media
-let soma =0
 
+let atividade = [
+    [acordar, 6, 30],
+    [curso, 7, 30],
+    [almoço, 12, 30]
+]
 
-for (let i = 0; i < 4; i++) {
-
-    let numeroDigitado = parseInt(prompt(`digite um numero`));
-    listaNumerosDigitados.push(numeroDigitado);
-    alert(listaNumerosDigitados[i]);
-    soma = soma + listaNumerosDigitados[i];
-
+function TabelaAleatória(tabela){
+for(i=0; i<tabela.length; i++){
+    for(j=0; j<tabela[i].length; j++){
+        tabela[i][j]= gerarnumeroaleatório(100);
+    }
 }
-media = soma / 4
-alert(media)
+return tabela;
+}
+function gerarnumeroaleatório(index){
+    return Math.floor(Math.random()*index+1);
+}

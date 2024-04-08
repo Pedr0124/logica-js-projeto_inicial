@@ -1,0 +1,19 @@
+let arr = [];
+let tamanhoDaLista = parseInt(prompt("qual o tamanho da sua lista?"))
+
+function geralista(arr, tamanhoDaLista){
+for (let i = 0; i < tamanhoDaLista; i++) {
+
+    arr[i] = Math.floor(Math.random()* 100)
+}
+return arr;
+}
+
+function ordenaLista(arr){
+    let listaOrdenada = arr.sort(
+        function compareNumbers(a,b){
+            return a-b;
+        }
+    )
+        return listaOrdenada
+}

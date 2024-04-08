@@ -1,5 +1,4 @@
 let listaNumerosDigitados = [];
-let media
 let soma =0
 
 
@@ -11,5 +10,4 @@ for (let i = 0; i < 4; i++) {
     soma = soma + listaNumerosDigitados[i];
 
 }
-media = soma / 4
-alert(media)
+alert(soma)
