@@ -1,18 +1,15 @@
+function gerarTabela() {
+    let linhas = parseInt(prompt(`digite o numero de linhas da sua tabela`))
+    let colunas = parseInt(prompt(`digite o numero de colunas`))
 
-let atividade = [
-    [acordar, 6, 30],
-    [curso, 7, 30],
-    [almoço, 12, 30]
-]
 
-function TabelaAleatória(tabela){
-for(i=0; i<tabela.length; i++){
-    for(j=0; j<tabela[i].length; j++){
+let Tabela = [];
+for(let i=0; i<linhas; i++){
+    tabela[i] = [];
+
+    for (let j=0; j<colunas; j++){
         tabela[i][j]= gerarnumeroaleatório(100);
-    }
-}
-return tabela;
-}
-function gerarnumeroaleatório(index){
-    return Math.floor(Math.random()*index+1);
-}
+    
+    }}
+    return tabela}
+    console.table(gerarTabela())
