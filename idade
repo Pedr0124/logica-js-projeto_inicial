@@ -6,3 +6,4 @@ if (idade > 18){
 else{
     alert("menor de idade")
 } 
+
