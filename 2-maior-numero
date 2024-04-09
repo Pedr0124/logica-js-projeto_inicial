@@ -1,9 +1,14 @@
 let primeiroNumero = prompt(`digite o primeiro número`)
 let segundoNumero = prompt(`digite o segundo número`)
 
-if (primeiroNumero>segundoNumero){
-    alert(primeiroNumero)
+function maiorNumero(primeiro, segundo){
+
+if (primeiro>segundo){
+    alert(primeiro)
 }
 else{
-    alert(segundoNumero)
+    alert(segundo)
 }
+}
+
+maiorNumero(primeiroNumero, segundoNumero);
