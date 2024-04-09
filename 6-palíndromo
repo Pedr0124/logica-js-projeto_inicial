@@ -1,0 +1,39 @@
+let palavra = prompt(`digite a palavra`)
+
+
+function Array(arr) {
+
+    for () {
+      
+    }
+
+
+    let lista = [];
+
+
+    function palavraArray(arr) {
+
+        for (palavra) {
+            if (palavra = arr) {
+
+            }
+        }
+
+    }
+
+    alert(palavraArray(lista));
+
+    function mostrarInveso(arr) {
+        let arrInversa = [];
+        for (palavra) {
+            arrInversa.push();
+        }
+
+    }
+}
+    if (arrInversa === palavra) {
+        alert(`é um palíndromo`)
+    }
+    else {
+        alert(`não é um palíndromo`)
+    }
