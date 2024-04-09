@@ -17,3 +17,4 @@ return tabela;
 function gerarnumeroaleatório(index){
     return Math.floor(Math.random()*index+1);
 }
+console.table(gerarTabela())
